@@ -65,9 +65,9 @@
                          There is no restriction on higher score
                          
        Used five criteria to calculate score :
-      1) **Speciality Matching** : Out of 100 
+      1) Speciality Matching : Out of 100 
              Suppose Doctor For which we have to find Similar Doctors has 
-               Speciality set { "DERMATOLGY" , "CARDIOLOGY","PSYCHOLOGY"
+             Speciality set { "DERMATOLGY" , "CARDIOLOGY","PSYCHOLOGY"
              Doctor Which we are comparing have : 
              Speciality Set( "DERMATOLGY" , "CARDIOLOGY","ONCOLOGY", "DENTISTRY") 
              so now we have 2 speciality in common
