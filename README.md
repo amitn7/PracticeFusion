@@ -1,5 +1,5 @@
 # Assumptions : 
-
+   ```
    1)   Names  of each Doctor is Unique: 
    2)   All the address are stored in Latitude and Longitude
    3)   difference in 1 degree longitude = 69 mile
@@ -14,7 +14,7 @@
     6 )  Have used Junit for testing	
     7)   A doctor can have more than one speciality
     8)   taking consideration for calculation similarity score only for the doctors who are within the distance
-		 
+```	 
 # Major DataStructure Used:
 	
 	HashMap<name, Doctor> DoctorList  --> stores Doctor List and retrieves in O(1) when required;
