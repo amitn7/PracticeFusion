@@ -94,14 +94,11 @@
       1) can use some Spring Framework which makes tasting easy and less lines of codes  but requires settings and provides many functionality
 	  2) Names can be similar(I have assumed in my code that names are unique) and can use some kind of hashing based on Location , speciality as well
 	  3) For calculating the similaity between Doctors we can have taken consideration into reviews as well and the contents of review
-	     If some doctors are having similar review then chances of similarity would be more. This can be done by comparing the reviews and
-		 calculating the similaity between them. 
+	     If some doctors are having similar review then chances of similarity would be more. This can be done by comparing the reviews and calculating the similaity between them. 
 	  4) Some more fields in Doctor can be added like  a separate class for reviewScore.
-	  5) We can give users more choice whether the user wants doctor to be sorted by rating , distance , speciality and we can implement that 
-	     as well
+	  5) We can give users more choice whether the user wants doctor to be sorted by rating , distance , speciality and we can implement that  as well
 	  6) When the users are browsing can use cookies as well so as to remember what was their last search
-	  7)  We can connect to some API which will tell whether the doctor is available currently or not and can return the doctor on the basis of availability 
-	      as well
+	  7)  We can connect to some API which will tell whether the doctor is available currently or not and can return the doctor on the basis of availability  as well
 	  8)  There can be numerous other factors which should be taken into consideration while returning the result such as fees Charged
-	  9) 
+
 	  
