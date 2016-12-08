@@ -1,6 +1,6 @@
 # Assumptions : 
 
-   1)   Names of each Doctor is Unique: 
+   1)  ** Names ** of each Doctor is Unique: 
    2)   All the address are stored in Latitude and Longitude
    3)   difference in 1 degree longitude = 69 mile
              Have used location such that first it will round up to decimal Places 
