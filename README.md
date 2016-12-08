@@ -17,12 +17,12 @@
 ```	 
 # Major DataStructure Used:
 	
-	HashMap<name, Doctor> DoctorList  --> stores Doctor List and retrieves in O(1) when required;
-        HashMap<Locality, List<Doctor>>  AreaWiseDoctor --> While Adding a Doctor in the DB have created a Map
-	                              which stores the Doctor AreaWiseDoctor
-				      At each Location there can be many Doctors so have taken List of Doctors
+    HashMap<name, Doctor> DoctorList  --> stores Doctor List and retrieves in O(1) when required;
+    HashMap<Locality, List<Doctor>>  AreaWiseDoctor --> While Adding a Doctor in the DB have created a Map
+                       which stores the Doctor AreaWiseDoctor
+                       At each Location there can be many Doctors so have taken List of Doctors
 	
-	TreeMap<Score, Doctor>   Score = It will store the Doctor sorted in Descending Order of the score.
+    TreeMap<Score, Doctor>   Score = It will store the Doctor sorted in Descending Order of the score.
 	                               Have used tree Map to store to avoid sorting Later;
 	
 	
