@@ -65,7 +65,7 @@
                          There is no restriction on higher score
                          
        Used five criteria to calculate score :
-      ** Speciality Matching** : Out of 100 
+      1) Speciality Matching** : Out of 100 
              Suppose Doctor For which we have to find Similar Doctors has 
              Speciality set { "DERMATOLGY" , "CARDIOLOGY","PSYCHOLOGY"
              Doctor Which we are comparing have : 
@@ -103,4 +103,5 @@
 	  7)  We can connect to some API which will tell whether the doctor is available currently or not and can return the doctor on the basis of availability 
 	      as well
 	  8)  There can be numerous other factors which should be taken into consideration while returning the result such as fees Charged
+	  9) 
 	  
