@@ -65,7 +65,7 @@
                          There is no restriction on higher score
                          
        Used five criteria to calculate score :
-   ##1) Speciality Matching : Out of 100 
+      1) **Speciality Matching** : Out of 100 
              Suppose Doctor For which we have to find Similar Doctors has 
                Speciality set { "DERMATOLGY" , "CARDIOLOGY","PSYCHOLOGY"
              Doctor Which we are comparing have : 
@@ -75,17 +75,17 @@
              so here it would be (2/3)*(2/4) as (2 out of 3)  and (2 out of 4)   speciality are in common
              so it would be below 1 so we have multiplied it by 100 ;
              
-   ##2) Distance :
+       2) Distance :
                 on scale of 100 ;
                 it will add to score on 100/(dist+1) as distance increases score should reduce
           
-   ##3) Years of Experience :
+       3) Years of Experience :
                More the number of the experience higher will be the score
                
-   ##4) Review Score:
+       4) Review Score:
                Doctors review Score is also added to the Similarity Score 
          
-   ##5) No of Reviews:
+       5) No of Reviews:
                Doctors with more no of reviews will have higher score 
 
 
