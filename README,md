@@ -1,4 +1,4 @@
-Assumptions : 
+# Assumptions : 
 
    1)   Names of each Doctor is Unique: 
    2)   All the address are stored in Latitude and Longitude
@@ -9,24 +9,24 @@ Assumptions :
 			 so unit difference of Locality. latitude and Locality.Longitude = 0.7 mile;
 	     When I have to calculate the NearBy Doctor within Distance have divided the latitude by distance/0.7
 		 and then searched in (lat- dist/0.7) to (lat + dist/0.7)
-	4)   Have used distance formula to calculate distance between two points  sqrt((x1-x2)^2 + (y1-y2)^2);
-	5)   Returns the list of doctor names based on similarity Score	
+    4)   Have used distance formula to calculate distance between two points  sqrt((x1-x2)^2 + (y1-y2)^2); 
+    5)   Returns the list of doctor names based on similarity Score	
     6 )  Have used Junit for testing	
-	7)   A doctor can have more than one speciality
-	8)   taking consideration for calculation similarity score only for the doctors who are within the distance
+    7)   A doctor can have more than one speciality
+    8)   taking consideration for calculation similarity score only for the doctors who are within the distance
 		 
-    Major DataStructure Used:
+# Major DataStructure Used:
 	
 	HashMap<name, Doctor> DoctorList  --> stores Doctor List and retrieves in O(1) when required;
-    HashMap<Locality, List<Doctor>>  AreaWiseDoctor --> While Adding a Doctor in the DB have created a Map
+        HashMap<Locality, List<Doctor>>  AreaWiseDoctor --> While Adding a Doctor in the DB have created a Map
 	                              which stores the Doctor AreaWiseDoctor
-				                  At each Location there can be many Doctors so have taken List of Doctors
+				      At each Location there can be many Doctors so have taken List of Doctors
 	
 	TreeMap<Score, Doctor>   Score = It will store the Doctor sorted in Descending Order of the score.
-	                                 Have used tree Map to store to avoid sorting Later;
+	                               Have used tree Map to store to avoid sorting Later;
 	
 	
-	Class Description :
+#Class Description :
 	
 	FindDoctorApp :  This is the Class with the Main entry;
                      This class Invokes the creation of Other Class Instance and find SImilar Doctors 
@@ -53,7 +53,7 @@ Assumptions :
 	Locality :       process Latitude and Longitude to be stored as int to process information accurately
 	
 	
-	Algorithm to find Similar Doctors : 
+#Algorithm to find Similar Doctors : 
 	
 	       It will take into consideration only Doctors in the specified Radius and will not consider Doctor with 
        the distance greater than the spedified Distance :
@@ -90,7 +90,7 @@ Assumptions :
 
 
 			   
-Improvements which can be made :
+#Improvements which can be made :
       1) can use some Spring Framework which makes tasting easy and less lines of codes  but requires settings and provides many functionality
 	  2) Names can be similar(I have assumed in my code that names are unique) and can use some kind of hashing based on Location , speciality as well
 	  3) For calculating the similaity between Doctors we can have taken consideration into reviews as well and the contents of review
