@@ -5,10 +5,10 @@
    3)   difference in 1 degree longitude = 69 mile
            Have used location such that first it will round up to decimal Places 
            and then multiplied by 100
-	   So all the Locality stored are integer ;
-	   so unit difference of Locality. latitude and Locality.Longitude = 0.7 mile;
-	 When I have to calculate the NearBy Doctor within Distance have divided the latitude by distance/0.7 
-	 and then searched in (lat- dist/0.7) to (lat + dist/0.7)
+           So all the Locality stored are integer ;
+           so unit difference of Locality. latitude and Locality.Longitude = 0.7 mile;
+         When I have to calculate the NearBy Doctor within Distance have divided the latitude by distance/0.7 
+         and then searched in (lat- dist/0.7) to (lat + dist/0.7)
     4)   Have used distance formula to calculate distance between two points  sqrt((x1-x2)^2 + (y1-y2)^2); 
     5)   Returns the list of doctor names based on similarity Score	
     6 )  Have used Junit for testing	
