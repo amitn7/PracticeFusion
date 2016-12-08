@@ -15,6 +15,7 @@
     7)   A doctor can have more than one speciality
     8)   taking consideration for calculation similarity score only for the doctors who are within the distance
 ```	 
+
 # Major DataStructure Used:
 	
     HashMap<name, Doctor> DoctorList  --> stores Doctor List and retrieves in O(1) when required;
